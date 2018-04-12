@@ -1,0 +1,28 @@
+body {
+    background-image:url(images/Train-Schedule-Board.jpg);
+    background-color: lightblue;
+    background-attachment: fixed;
+}
+@import url('https://fonts.googleapis.com/css?family=Cardo:700');
+
+
+.title {
+    position: absolute;
+    width: 100%;
+    top: 20vh; right:0;
+    overflow: hidden;
+    pointer-events: none;
+   
+    }
+    z-index: 10;
+}
+
+@keyframes marquee {
+    0%   { transform: translate(0%, 0); }
+    100% { transform: translate(-141.5vw, 0); }
+}
+
+
+
+
+
